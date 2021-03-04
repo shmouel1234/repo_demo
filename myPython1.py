@@ -15,4 +15,13 @@ for index , letter in enumerate(name):
         print("🤑🤑")
     else:
         print("😛😛")
+count=0 
+while True:
+    number = int(input("type a number: "))
+    if number%5==0:
+        print(f"{number} is multiple of 5")
+        count += 1
+    else:
+        break
+print(f"you typed {count} number multiple of 5")
         
