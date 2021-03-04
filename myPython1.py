@@ -24,5 +24,6 @@ while True:
     else:
         break
 print(f"you typed {count} number multiple of 5")
-print("456"
+print("456")
+
         
